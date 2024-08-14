@@ -1,0 +1,27 @@
+name: Ktlint Check
+
+on:
+  pull_request:
+
+jobs:
+  ktlint:
+    name: Run ktlint
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Cache ktlint
+        uses: actions/cache@v3
+        with:
+          path: ~/.gradle/caches
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle
+
+      - name: Install dependencies
+        run: ./gradlew dependencies
+
+      - name: Run ktlint
+        run: ./gradlew ktlintCheck
