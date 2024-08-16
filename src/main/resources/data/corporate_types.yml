@@ -29,27 +29,27 @@ corporate_types:
     special:
   - full: 一般財団法人
     kanji_short: （一財）
-    kana_short: シヤ
+    kana_short: シ[ヤャ]
     special:
   - full: 公益財団法人
     kanji_short: （公財）
-    kana_short: シユウ
+    kana_short: シ[ユュ]ウ
     special:
   - full: 社団法人
     kanji_short: （社）
-    kana_short: シヤ
+    kana_short: シ[ヤャ]
     special:
   - full: 一般社団法人
     kanji_short: （一社）
-    kana_short: シヤ
+    kana_short: シ[ヤャ]
     special:
   - full: 公益社団法人
     kanji_short: （公社）
-    kana_short: シヤ
+    kana_short: シ[ヤャ]
     special:
   - full: 宗教法人
     kanji_short: （宗）
-    kana_short: シユウ
+    kana_short: シ[ユュ]ウ
     special:
   - full: 学校法人
     kanji_short: （学）
@@ -85,7 +85,7 @@ corporate_types:
     special:
   - full: 行政書士法人
     kanji_short: （行）
-    kana_short: ギヨ
+    kana_short: ギ[ヨョ]
     special:
   - full: 司法書士法人
     kanji_short: （司）
@@ -113,7 +113,7 @@ corporate_types:
     special:
   - full: 出張所
     kanji_short: （出）
-    kana_short: シユツ
+    kana_short: シ[ユュ]ツ
     special:
   - full: 連合会
     kanji_short: （連）
@@ -121,11 +121,11 @@ corporate_types:
     special:
   - full: 共済組合
     kanji_short: （共済）
-    kana_short: キヨウサイ
+    kana_short: キ[ヨョ]ウサイ
     special:
   - full: 協同組合
     kanji_short: （協組）
-    kana_short: キヨウクミ
+    kana_short: キ[ヨョ]ウクミ
     special:
   - full: 生命保険
     kanji_short: （生命）
@@ -133,7 +133,7 @@ corporate_types:
     special:
   - full: 海上火災保険
     kanji_short: （海上）
-    kana_short: カイジヨウ
+    kana_short: カイジ[ヨョ]ウ
     special:
   - full: 火災海上保険
     kanji_short: （火災）
@@ -153,7 +153,7 @@ corporate_types:
     special:
   - full: 社会保険診療報酬支払基金
     kanji_short: （社保）
-    kana_short: シヤホ
+    kana_short: シ[ヤャ]ホ
     special:
   - full: 厚生年金基金
     kanji_short: （厚年）
@@ -161,7 +161,7 @@ corporate_types:
     special:
   - full: 従業員組合
     kanji_short: （従組）
-    kana_short: ジユウクミ
+    kana_short: ジ[ユュ]ウクミ
     special:
   - full: 労働組合
     kanji_short: （労）組
@@ -169,19 +169,19 @@ corporate_types:
     special:
   - full: 生活協同組合
     kanji_short: （生協）
-    kana_short: セイキヨウ
+    kana_short: セイキ[ヨョ]ウ
     special:
   - full: 食糧販売協同組合
     kanji_short: （食販協）
-    kana_short: シヨクハンキヨウ
+    kana_short: シヨクハンキ[ヨョ]ウ
     special:
   - full: 国家公務員共済組合連合会
     kanji_short: （国共連）
-    kana_short: コクキヨウレン
+    kana_short: コクキ[ヨョ]ウレン
     special:
   - full: 農業協同組合連合会
     kanji_short: （農協連）
-    kana_short: ノウキヨウレン
+    kana_short: ノウキ[ヨョ]ウレン
     special:
   - full: 経済農業協同組合連合会
     kanji_short: （経済連）
@@ -189,23 +189,23 @@ corporate_types:
     special:
   - full: 共済農業協同組合連合会
     kanji_short: （共済連）
-    kana_short: キヨウサイレン
+    kana_short: キ[ヨョ]ウサイレン
     special:
   - full: 漁業協同組合
     kanji_short: （漁協）
-    kana_short: ギヨキヨウ
+    kana_short: ギ[ヨョ]キ[ヨョ]ウ
     special:
   - full: 漁業協同組合連合会
     kanji_short: （漁連）
-    kana_short: ギヨレン
+    kana_short: ギ[ヨョ]レン
     special:
   - full: 公共職業安定所
     kanji_short: （職安）
-    kana_short: シヨクアン
+    kana_short: シ[ヨョ]クアン
     special:
   - full: 社会福祉協議会
     kanji_short: （社協）
-    kana_short: シヤキヨウ
+    kana_short: シヤキ[ヨョ]ウ
     special:
   - full: 特別養護老人ホーム
     kanji_short: （特養）
