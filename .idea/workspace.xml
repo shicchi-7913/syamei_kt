@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c134c182-b0da-487c-a696-56f28162c30e" name="Changes" comment="add plugin">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/com/syamei/CorporateTypeTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/syamei/CorporateType.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/syamei/CorporateType.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/corporate_types.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/corporate_types.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +42,6 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="formatting" type="c8890929:TasksNode$1" />
               </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="syamei_kt" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="verification" type="c8890929:TasksNode$1" />
-              </path>
             </expand>
             <select />
           </tree_state>
@@ -79,6 +71,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.CorporateTypeTest.executor": "Run",
     "Gradle.CorporateTypeTest.returnsCorporateTypeList.executor": "Run",
     "Gradle.syamei_kt [ktlintCheck].executor": "Run",
     "Gradle.syamei_kt [ktlintFormat].executor": "Run",
@@ -97,7 +90,31 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.CorporateTypeTest.returnsCorporateTypeList">
+  <component name="RunManager" selected="Gradle.syamei_kt [ktlintFormat]">
+    <configuration name="CorporateTypeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.syamei.CorporateTypeTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="CorporateTypeTest.returnsCorporateTypeList" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -168,9 +185,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.syamei_kt [ktlintFormat]" />
+        <item itemvalue="Gradle.CorporateTypeTest" />
         <item itemvalue="Gradle.CorporateTypeTest.returnsCorporateTypeList" />
         <item itemvalue="Gradle.syamei_kt [ktlintCheck]" />
-        <item itemvalue="Gradle.syamei_kt [ktlintFormat]" />
       </list>
     </recent_temporary>
   </component>

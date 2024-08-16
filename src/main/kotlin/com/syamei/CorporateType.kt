@@ -2,8 +2,8 @@ package com.syamei
 
 import com.charleskorn.kaml.Yaml
 import kotlinx.serialization.Serializable
-import java.nio.file.Path
 import java.nio.file.Files
+import java.nio.file.Path
 
 @Serializable
 data class CorporateType(
@@ -15,7 +15,7 @@ data class CorporateType(
 
 @Serializable
 private data class CorporateTypesWrapper(
-    val corporateTypes: List<CorporateType>
+    val corporateTypes: List<CorporateType>,
 )
 
 fun loadCorporateTypes(): List<CorporateType> {
