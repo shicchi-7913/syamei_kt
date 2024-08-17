@@ -14,6 +14,7 @@ repositories {
 dependencies {
     implementation("com.charleskorn.kaml:kaml:0.61.0")
     testImplementation(kotlin("test"))
+    testImplementation("org.junit.jupiter:junit-jupiter-params")
 }
 
 tasks.test {
