@@ -23,9 +23,8 @@ object Syamei {
     ): Boolean {
         val patterns =
             listOf(
-                "^${kanaShort}\\)$",
-                "^$kanaShort[^)]",
-                "\\($kanaShort$",
+                "^$kanaShort）.*$",
+                ".*（$kanaShort$",
             )
         return patterns.any { companyName.matches(Regex(it)) }
     }
