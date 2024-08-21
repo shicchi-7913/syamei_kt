@@ -55,7 +55,7 @@ class SyameiTest {
             "kotlin㈴      | kotlin",
             "kot㈴lin      | kot㈴lin",
         ],
-        delimiter = '|'
+        delimiter = '|',
     )
     fun returnsCompanyNameWithoutCorporateType(
         fullName: String,
