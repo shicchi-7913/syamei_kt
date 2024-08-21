@@ -34,4 +34,34 @@ class SyameiTest {
         val actual = Syamei.containsCorporateType(fullName)
         assertEquals("fullName is $fullName", expected, actual)
     }
+
+    @ParameterizedTest
+    @CsvSource(
+        value = [
+            "kotlin        | kotlin",
+            "株式会社kotlin | kotlin",
+            "kotlin株式会社 | kotlin",
+            "kot株式会社lin | kot株式会社lin",
+            "（有）kotlin   | kotlin",
+            "kotlin（有）   | kotlin",
+            "ko（有）tlin   | ko（有）tlin",
+            "シヤ）kotlin   | kotlin",
+            "シャ）kotlin   | kotlin",
+            "kotlin（シヤ   | kotlin",
+            "kotlin（シャ   | kotlin",
+            "kot（カ）lin   | kot（カ）lin",
+            "カ（kotlin     | カ（kotlin",
+            "㈴kotlin      | kotlin",
+            "kotlin㈴      | kotlin",
+            "kot㈴lin      | kot㈴lin",
+        ],
+        delimiter = '|'
+    )
+    fun returnsCompanyNameWithoutCorporateType(
+        fullName: String,
+        expected: String,
+    ) {
+        val actual = Syamei.removeCorporateType(fullName)
+        assertEquals("fullName is $fullName", expected, actual)
+    }
 }
